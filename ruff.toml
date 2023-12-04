@@ -1,0 +1,23 @@
+select = [
+  "E",   # pycodestyle
+  "F",   # pyflakes
+  "DJ",  # flake-django
+  "UP",  # pyupgrade,
+  "I",   # isort
+
+  "D",    # pydocstyle
+  "D401", # Require an imperative mood for all docstrings.
+]
+
+ignore = [
+  "D417", # Missing argument descriptions in the docstring
+  "D100", # Missing docstring in public package
+  "D101", # Missing docstring in public class
+  "D104", # Missing docstring in public package
+  "D212", # Allow start summary at second line in multi-line docstring
+  "D106", # Missing docstring in nested class
+  "D102",
+]
+
+[lint.pydocstyle]
+convention = "google"
