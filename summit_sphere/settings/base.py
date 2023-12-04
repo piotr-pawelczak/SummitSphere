@@ -26,6 +26,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "summit_sphere.users",
+    "summit_sphere.peaks",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -115,3 +116,5 @@ STATIC_URL = "static/"
 # ---------- DJANGO EXTENSIONS -------------
 
 SHELL_PLUS = "ipython"
+
+FIXTURE_DIRS = "fixtures/"
