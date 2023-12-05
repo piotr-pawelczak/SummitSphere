@@ -116,4 +116,4 @@ STATIC_URL = "static/"
 
 # ---------- DJANGO EXTENSIONS -------------
 
-SHELL_PLUS = "ipython"
+SHELL_PLUS = "bpython"
