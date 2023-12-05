@@ -6,6 +6,9 @@ class Region(models.Model):
     name = models.CharField(max_length=200)
     country_code = models.CharField(max_length=2)
 
+    class Meta:
+        ordering = ["name"]
+
     def __str__(self):
         """Return string representation of the Region."""
         return self.name
@@ -21,7 +24,7 @@ class Peak(models.Model):
     elevation = models.DecimalField(
         _("Elevation of the peak"), max_digits=5, decimal_places=1
     )
-    country_code = models.CharField(max_length=2)
+    country_code = models.CharField(max_length=10)
 
     class Meta:
         ordering = ["unicode_name"]
