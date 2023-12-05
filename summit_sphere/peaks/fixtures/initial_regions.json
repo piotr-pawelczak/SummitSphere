@@ -1,0 +1,250 @@
+[
+  {
+    "model": "peaks.region",
+    "pk": 1,
+    "fields": {
+      "name": "Beskid Śląski",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 2,
+    "fields": {
+      "name": "Beskid Mały",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 3,
+    "fields": {
+      "name": "Beskid Żywiecki",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 4,
+    "fields": {
+      "name": "Beskid Makowski",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 5,
+    "fields": {
+      "name": "Beskid Wyspowy",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 6,
+    "fields": {
+      "name": "Gorce",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 7,
+    "fields": {
+      "name": "Beskid Sądecki",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 8,
+    "fields": {
+      "name": "Beskid Niski",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 9,
+    "fields": {
+      "name": "Pieniny",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 10,
+    "fields": {
+      "name": "Tatry Zachodnie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 11,
+    "fields": {
+      "name": "Tatry Wysokie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 12,
+    "fields": {
+      "name": "Góry Sanocko-Turczańskie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 13,
+    "fields": {
+      "name": "Bieszczady",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 14,
+    "fields": {
+      "name": "Góry Izerskie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 15,
+    "fields": {
+      "name": "Karkonosze",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 16,
+    "fields": {
+      "name": "Góry Kaczawskie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 17,
+    "fields": {
+      "name": "Rudawy Janowickie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 18,
+    "fields": {
+      "name": "Góry Wałbrzyskie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 19,
+    "fields": {
+      "name": "Góry Kamienne",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 20,
+    "fields": {
+      "name": "Góry Jastrzębie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 21,
+    "fields": {
+      "name": "Góry Stołowe",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 22,
+    "fields": {
+      "name": "Góry Orlickie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 23,
+    "fields": {
+      "name": "Góry Bystrzyckie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 24,
+    "fields": {
+      "name": "Góry Sowie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 25,
+    "fields": {
+      "name": "Góry Bardzkie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 26,
+    "fields": {
+      "name": "Góry Złote",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 27,
+    "fields": {
+      "name": "Góry Bialskie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 28,
+    "fields": {
+      "name": "Masyw Śnieżnika",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 29,
+    "fields": {
+      "name": "Góry Opawskie",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 30,
+    "fields": {
+      "name": "Masyw Ślęży",
+      "country_code": "PL"
+    }
+  },
+  {
+    "model": "peaks.region",
+    "pk": 31,
+    "fields": {
+      "name": "Góry Świętokrzyskie",
+      "country_code": "PL"
+    }
+  }
+]
