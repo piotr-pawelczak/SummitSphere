@@ -138,3 +138,6 @@ GitHub.sublime-settings
 
 .DS_Store
 .idea
+
+# ruff
+.ruff_cache
