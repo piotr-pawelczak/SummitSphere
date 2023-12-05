@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "Summit Sphere"
+name = "SummitSphere"
 version = "0.1.0"
 description = ""
 authors = ["Piotr Pawełczak <pawelczakpiotr99@gmail.com>"]
