@@ -11,7 +11,7 @@ class PeakAdmin(ModelAdminNotCaseSensitiveSearch):
     search_fields = ["name", "unicode_name"]
     list_filter = ["region", "country_code"]
     list_editable = ["region"]
-    # raw_id_fields = ["region"]
+    raw_id_fields = ["region"]
 
 
 @admin.register(Region)
