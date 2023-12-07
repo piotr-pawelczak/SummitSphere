@@ -18,7 +18,9 @@ class Peak(models.Model):
     name = models.CharField(_("Name of the peak"), max_length=200, db_index=True)
     region = models.ForeignKey(Region, on_delete=models.SET_NULL, null=True, blank=True)
     alternative_names = models.TextField(blank=True, default="")
-    unicode_name = models.CharField(_("Unicode name of the peak"), max_length=200)
+    unicode_name = models.CharField(
+        _("Unicode name of the peak"), max_length=200, db_index=True
+    )
     latitude = models.FloatField(null=True)
     longitude = models.FloatField(null=True)
     elevation = models.DecimalField(
