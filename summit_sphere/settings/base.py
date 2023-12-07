@@ -21,6 +21,7 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
+    "rest_framework",
     "django_extensions",
 ]
 
@@ -117,3 +118,10 @@ STATIC_URL = "static/"
 # ---------- DJANGO EXTENSIONS -------------
 
 SHELL_PLUS = "bpython"
+
+# ---------- REST FRAMEWORK ----------------
+
+REST_FRAMEWORK = {
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 100,
+}
