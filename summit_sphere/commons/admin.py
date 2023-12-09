@@ -2,6 +2,10 @@ from django.contrib import admin
 from django.db.models import Q
 
 
+class TimeStampedModelAdmin(admin.ModelAdmin):
+    readonly_fields = ["created_at", "updated_at"]
+
+
 class ModelAdminNotCaseSensitiveSearch(admin.ModelAdmin):
     def get_search_results(self, request, queryset, search_term):
         """Override get_search_results to enable case-insensitive search."""
