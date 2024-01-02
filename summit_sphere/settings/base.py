@@ -22,6 +22,7 @@ DJANGO_APPS = [
 
 THIRD_PARTY_APPS = [
     "rest_framework",
+    "rest_framework.authtoken",
     "django_extensions",
 ]
 
@@ -122,6 +123,11 @@ SHELL_PLUS = "bpython"
 # ---------- REST FRAMEWORK ----------------
 
 REST_FRAMEWORK = {
+    # PAGINATION
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "PAGE_SIZE": 100,
+    # AUTHENTICATION
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.TokenAuthentication",
+    ],
 }
