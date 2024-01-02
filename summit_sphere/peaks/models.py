@@ -39,6 +39,9 @@ class Peak(models.Model):
         """Return string representation of the Peak."""
         return f"{self.name} ({self.elevation})"
 
+    def get_coordinates(self) -> str:
+        return f"{self.latitude}, {self.longitude}"
+
 
 class Visit(TimeStampedModel):
     peak = models.ForeignKey(Peak, on_delete=models.CASCADE, related_name="visits")
